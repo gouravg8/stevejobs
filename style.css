@@ -1,0 +1,45 @@
+* {
+    background-color: rgb(61, 61, 59);
+    color: white;
+}
+
+.container {
+    margin-top: 5px;
+}
+
+div.container #main-img {
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    box-shadow: 5px 5px 15px black;
+}
+
+#main-name,
+h4 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+table {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 0.5%;
+
+    /* properties of content inside table */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    /* box-shadow: 5px 5px 20px black; */
+    padding: 5%;
+    word-spacing: 1.5px;
+}
+
+hr {
+    width: 60%;
+}
